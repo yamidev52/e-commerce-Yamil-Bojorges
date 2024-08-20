@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .nav {
+  --#{$prefix}nav-link-padding-x: #{$nav-link-padding-x};
+  --#{$prefix}nav-link-padding-y: #{$nav-link-padding-y};
+  @include rfs($nav-link-font-size, --#{$prefix}nav-link-font-size);
+  --#{$prefix}nav-link-font-weight: #{$nav-link-font-weight};
+  --#{$prefix}nav-link-color: #{$nav-link-color};
+  --#{$prefix}nav-link-hover-color: #{$nav-link-hover-color};
+  --#{$prefix}nav-link-disabled-color: #{$nav-link-disabled-color};
+}
+
+--#{$prefix}nav-pills-border-radius: #{$nav-pills-border-radius};
+--#{$prefix}nav-pills-link-active-color: #{$nav-pills-link-active-color};
+--#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg}; */
+
+header {
+  background-color: rgba(165, 135, 221, 0.863);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo h1{
+    color: rgb(16, 13, 221);
+    font-size: 38px;
+    font-family: "Rubik", sans-serif;
+    font-weight: bold;
+    
+}
+
+body {
+  background-color: rgb(157, 190, 219);
+}
+
+.content{
+    margin: 15px;
+    padding: 15px;
+    display: flex;
+}
+
