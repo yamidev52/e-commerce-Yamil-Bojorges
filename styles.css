@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 
 * {
@@ -22,7 +23,7 @@
 --#{$prefix}nav-pills-link-active-bg: #{$nav-pills-link-active-bg}; */
 
 header {
-  background-color: rgba(165, 135, 221, 0.863);
+  background-color: #2D92C5;
   padding: 10px;
   display: flex;
   justify-content: space-between;
@@ -30,7 +31,6 @@ header {
 }
 
 header .logo h1{
-    color: rgb(16, 13, 221);
     font-size: 38px;
     font-family: "Rubik", sans-serif;
     font-weight: bold;
@@ -38,14 +38,14 @@ header .logo h1{
 }
 
 body {
-  background: rgb(17,62,140);
-  background: linear-gradient(94deg, rgba(17,62,140,1) 0%, rgba(10,203,242,1) 100%);
+  background: rgb(63,96,112);
+  background: linear-gradient(90deg, rgba(63,96,112,1) 0%, rgba(61,123,155,1) 100%);
   height: 100vh;
 }
 
 .content{
     margin: 15px;
-    gap: 10px;
+    gap: 25px;
     flex-wrap: wrap;
     padding: 15px;
     display: flex;
@@ -57,7 +57,51 @@ body {
   height: 300px;
   object-fit: cover;
   width: 100%;
+  transition: all ease-in-out .4s;
+}
 
+.card-img-top:hover{
+  transition: all ease-in-out 0.5;
+  transform: scale(1.05);
+  box-shadow: 10px 10px 51px -20px rgba(0,0,0,1);
+  -moz-box-shadow: 10px 10px 51px -20px rgba(0,0,0,1);
+  box-shadow: 10px 10px 51px -20px rgba(0,0,0,1);
+  border-radius: 20px;
+}
+
+/* .card{
+  overflow: hidden;
+} */
+
+h1 ,h2{
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  height: 150px;
+  background-color: #2D92C5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer .izquierda{
+  margin-top: 20px;
+}
+
+ul li{
+  color: white;
+}
+
+.nav-item{
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
