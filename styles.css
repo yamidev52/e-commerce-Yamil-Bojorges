@@ -24,10 +24,29 @@
 
 header {
   background-color: #2D92C5;
-  padding: 10px;
+  padding: 120px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+}
+
+header li{
+  list-style: none;
+  display: flex;
+}
+
+header li a{
+  color: black;
+  margin: 12px;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  font-weight: bold;
+}
+
+a:visited{
+  color: black;
+  margin: 12px;
+  font-family: "Montserrat", sans-serif;
+  list-style: none;
+  font-weight: bold;
 }
 
 header .logo h1{
